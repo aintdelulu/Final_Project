@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 // Screens
-import 'models/auth_service.dart';
 import 'screens/splash_screen.dart';
 import 'screens/login_page.dart';
 import 'screens/register_page.dart';

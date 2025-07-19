@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import '../models/cart.dart';
 import '../models/order.dart';
-import '../widgets/helpers.dart' hide Palette;
 import 'order_summary_page.dart';
 
 class CheckoutPage extends StatefulWidget {

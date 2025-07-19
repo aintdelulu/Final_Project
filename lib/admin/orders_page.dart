@@ -28,7 +28,7 @@ class _OrdersPageState extends State<OrdersPage> {
   @override
   Widget build(BuildContext context) {
     final total = _spots.fold(0.0, (sum, spot) => sum + spot.y);
-    final avg = total / (_spots.length == 0 ? 1 : _spots.length);
+    final avg = total / (_spots.isEmpty ? 1 : _spots.length);
 
     return Padding(
       padding: const EdgeInsets.all(16),

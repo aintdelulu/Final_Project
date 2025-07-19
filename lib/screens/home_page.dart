@@ -229,8 +229,8 @@ class _HomePageState extends State<HomePage> {
                             divisions: (_maxPrice - _minPrice).round(),
                             activeColor: Palette.brown,
                             labels: RangeLabels(
-                              '\₱${_priceRange.start.toStringAsFixed(0)}',
-                              '\₱${_priceRange.end.toStringAsFixed(0)}',
+                              '₱${_priceRange.start.toStringAsFixed(0)}',
+                              '₱${_priceRange.end.toStringAsFixed(0)}',
                             ),
                             onChanged: (values) {
                               setState(() {
@@ -284,7 +284,7 @@ class _HomePageState extends State<HomePage> {
                                   p.title,
                                   style: const TextStyle(fontSize: 14, fontWeight: FontWeight.w600),
                                 ),
-                                Text('\₱${p.price.toStringAsFixed(2)}'),
+                                Text('₱${p.price.toStringAsFixed(2)}'),
                               ],
                             ),
                           ),

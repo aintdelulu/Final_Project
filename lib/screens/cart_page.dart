@@ -52,7 +52,7 @@ class _CartPageState extends State<CartPage> {
                         subtitle: Text(
                           'Size: ${item.size}\n'
                           'Quantity: ${item.quantity}\n'
-                          'Subtotal: \₱${(item.product.price * item.quantity).toStringAsFixed(2)}',
+                          'Subtotal: ₱${(item.product.price * item.quantity).toStringAsFixed(2)}',
                         ),
                         isThreeLine: true,
                         trailing: IconButton(
@@ -73,7 +73,7 @@ class _CartPageState extends State<CartPage> {
                         style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
                       ),
                       Text(
-                        '\₱${totalPrice.toStringAsFixed(2)}',
+                        '₱${totalPrice.toStringAsFixed(2)}',
                         style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
                       ),
                     ],

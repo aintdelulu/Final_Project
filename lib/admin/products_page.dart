@@ -2,7 +2,7 @@ import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/material.dart';
 
 class products_page extends StatelessWidget {
-  const products_page();
+  const products_page({super.key});
 
   @override
   Widget build(BuildContext context) {

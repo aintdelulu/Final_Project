@@ -1,7 +1,7 @@
 import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:fl_chart/fl_chart.dart';
-import 'package:flutter_application_1/screens/login_page.dart';
+import 'package:ClickCart/screens/login_page.dart';
 import 'users_page.dart';
 
 class AdminPage extends StatefulWidget {
@@ -185,7 +185,7 @@ class DashboardSection extends StatelessWidget {
             runSpacing: 20,
             children: const [
               _StatCard(title: "Orders Today", value: "32"),
-              _StatCard(title: "Revenue", value: "\₱3,250"),
+              _StatCard(title: "Revenue", value: "₱3,250"),
               _StatCard(title: "Users Online", value: "89"),
               _StatCard(title: "Returns", value: "2"),
             ],
